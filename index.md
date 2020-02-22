@@ -1,7 +1,7 @@
 ---
 layout: workshop      # DON'T CHANGE THIS.
-venue: "Reproducible computational environments using containers"        # brief name of host site without address (e.g., "Euphoric State University")
-address: "University of Amsterdam, Science park 904, room B0.208"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria")
+venue: "University of Amsterdam"        # brief name of host site without address (e.g., "Euphoric State University")
+address: "Science park 904, room B0.208"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria")
 country: "nl"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1#Current_codes)
 language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes)
 latitude: "52.354430"     # decimal latitude of workshop venue (use https://www.latlong.net/)
