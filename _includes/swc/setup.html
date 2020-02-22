@@ -66,29 +66,14 @@
 
 <div id="docker"> {% comment %} Start of Docker section. {% endcomment %}
   <h3>Docker setup</h3>
+  
+  <h4>Docker Hub and BitBucket</h4>
   <p>
-    Please seek help at the start of the lesson if you have not been able to establish a website account on:
-    - The [Docker Hub](http://hub.docker.com). We will use the Docker Hub to download pre-built container images, and for you to upload and download container images that you create, as explained in the relevant lesson episodes.
-    - [Bitbucket](http://bitbucket.org) is a code project repository site, akin to [GitHub](https://github.org). We will use Bitbucket to create a Docker container from a Docker image that you create.
+    Please make sure that you have signed up at <a href="http://hub.docker.com">the Docker Hub</a> before the start of the lesson. We will use the Docker Hub to download pre-built container images, and for you to upload and download container images that you create, as explained in the relevant lesson episodes.
+    <a href="http://bitbucket.org">Bitbucket</a> is a code project repository site, akin to GitHub. We will use Bitbucket to create a Docker container from a Docker image that you create.
 
-    ### Software to install
-    Unfortunately, in many common situations installing Docker on your laptop will not straightforward if you do not have a large amount of technical experience. We have helpers on hand that have worked their way through the install process but be prepared for some troubleshooting.
-
+    <h4>Docker Desktop installation</h4>
     Please try to install the appropriate software from the list below depending on the operating system that your laptop is running:
-    #### Microsoft Windows
-    
-
-    #### Apple macOS
-    Either:  
-     - Try this first, although it will not work with older versions of macOS. Install the [Docker Desktop (Mac)](https://hub.docker.com/editions/community/docker-ce-desktop-mac), or **failing that**:  
-     - Install the [Docker Toolbox (Mac)](https://docs.docker.com/toolbox/toolbox_install_mac/).
-
-    #### Linux:  
-    There are too many varieties of Linux to give precise instructions here, but hopefully you can locate documentation for getting Docker installed on your Linux distribution. It may already be installed. Note that Docker do list a number of versions of the Docker Engine for different Linux distributions, at <https://hub.docker.com/search/?type=edition&offering=community>
-
-    For this lesson you will need <em>OpenRefine</em> and a
-    web browser. <em>Note:</em> this is a Java program that runs on your machine (not in the cloud).
-    It runs inside a web browser, but no web connection is needed.
   </p>
 
   <div>
@@ -122,15 +107,11 @@
           </ul>
         </p>
       </article>
-      <article role="tabpanel" class="tab-pane active" id="openrefine-linux">
-        <p>Check that you have either the Firefox or the Chrome browser installed and set as your default browser. <strong>OpenRefine runs in your default browser.</strong></p>
-        <p>Download software from <a href="http://openrefine.org/">http://openrefine.org/</a>.</p>
-        <p>Make a directory called OpenRefine.</p>
-        <p>Unzip the downloaded file into the OpenRefine directory.</p>
-        <p>Go to your newly created OpenRefine directory.</p>
-        <p>Launch OpenRefine by entering <code>./refine</code> into the terminal within the OpenRefine directory.</p>
-        <p>If you are using a different browser, or if OpenRefine does not automatically open for you, point your browser at <a href="http://127.0.0.1:3333/">http://127.0.0.1:3333/</a> or <a href="http://localhost:3333">http://localhost:3333</a> to use the program.</p>
+      <article role="tabpanel" class="tab-pane active" id="docker-linux">
+        <p>
+          <strong>You must have admin rights to run Docker!</strong> There are too many varieties of Linux to give precise instructions here, but hopefully you can locate documentation for getting Docker installed on your Linux distribution. It may already be installed. Note that Docker do list a number of versions of the Docker Engine for different Linux distributions, at <a href="https://hub.docker.com/search/?type=edition&offering=community">https://hub.docker.com/search/?type=edition&offering=community</a>.          
+        </p>
       </article>
     </div>
   </div>
-</div> {% comment %} End of 'OpenRefine' section. {% endcomment %}
+</div> {% comment %} End of 'Docker' section. {% endcomment %}
